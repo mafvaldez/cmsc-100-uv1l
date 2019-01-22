@@ -28,3 +28,5 @@ Merging
 Remote Repositories
 	
 	> git remote add origin <url> // add the specified url as a remote repository and name it 'origin'
+
+	> git push <remote> <branch> (git push origin master) // push the local commits to the remote called origin, specifically, the master branch
