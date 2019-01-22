@@ -1,6 +1,6 @@
 Git + Github
 
-Basic Workflow:
+Basic Workflow
 	
 	do some changes to file
 
@@ -9,7 +9,7 @@ Basic Workflow:
 
 	(working directory is now clean)
 
-Branches:
+Branches
 
 	> git branch // shows us available branches and active branch
 	> git checkout <branch name> // switch to branch
@@ -24,3 +24,7 @@ Merging
 
 	> git checkout <target branch>
 	> git merge <source branch> // merge changes from source branch
+
+Remote Repositories
+	
+	> git remote add origin <url> // add the specified url as a remote repository and name it 'origin'
