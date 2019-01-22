@@ -15,3 +15,12 @@ Branches:
 	> git checkout <branch name> // switch to branch
 
 	git checkout -b <new branch name> // combination of the two commands above
+
+Merging
+
+	Applying the changes in 1 branch to another branch
+
+	Source branch --> Target branch
+
+	> git checkout <target branch>
+	> git merge <source branch> // merge changes from source branch
